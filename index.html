@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Social Like</title>
+        <link rel="stylesheet" href="./src/styles/styles.css" />
+    </head>
+    <body>
+        <!-- barra de navegación -->
+        <header>
+            <nav class="navbar">
+                <h1>Social Like</h1>
+            </nav>
+        </header>
+        <!-- contenedor principal -->
+        <body>
+            <main class="container">
+                <!-- tarjeta de perfil -->
+                <aside class="profile-card">
+                    <img src="./src/assets/img/misato.jpeg" alt="Foto de perfil de Misato" class="profile-img" />
+                    <h2>Misato</h2>
+                    <button class="profile-btn">Mi perfil</button>
+                </aside>
+                <!-- área de publicaciones -->
+                <section class="posts-section">
+                    <h2>Últimas publicaciones</h2>
+                    <div class="post">
+                        <div class="post-content">
+                            <h3>Rei</h3>
+                            <p>Acabo de configurar este nuevo <a href="#">bot de Discord</a>, cuéntame qué opinan ustedes.</p>
+                        </div>
+                        <div class="post-likes">
+                            <span> <span class="like-count like-btn-one">0</span> like(s) </span>
+                            <button class="like-btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content">
+                            <h3>Asuka</h3>
+                            <p>Acabo de leer este <a href="#">nuevo comic</a>. Denle un vistazo.</p>
+                        </div>
+                        <div class="post-likes">
+                            <span> <span class="like-count">0</span> like(s) </span>
+                            <button class="like-btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-content">
+                            <h3>Shinji</h3>
+                            <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
+                        </div>
+                        <div class="post-likes">
+                            <span> <span class="like-count">0</span> like(s) </span>
+
+                            <button class="like-btn">Like</button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <script src="./src/scripts/main.js"></script>
+        </body>
+    </body>
+</html>
