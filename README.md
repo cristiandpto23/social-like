@@ -8,7 +8,7 @@ Una mini-red social con funcionalidad de "like" interactiva.
 
 ## Deploy
 
-Puedes verse desplegado [aquí](https://cristiandpto23.github.io/social-like/)
+Puede verse desplegado [aquí](https://cristiandpto23.github.io/social-like/)
 
 ## Objetivo
 
