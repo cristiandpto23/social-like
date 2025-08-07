@@ -2,9 +2,13 @@
 
 Una mini-red social con funcionalidad de "like" interactiva.
 
-## 👨‍💻 Autor
+## Autor
 
 **Cristian Ahumada** - SkillNest Módulo 4 - Ejercicio Individual
+
+## Deploy
+
+Puedes verse desplegado [aquí](https://cristiandpto23.github.io/social-like/)
 
 ## Objetivo
 
